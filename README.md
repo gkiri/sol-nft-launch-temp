@@ -1,1 +1,1 @@
-# solananft
+# magicpeacocks
