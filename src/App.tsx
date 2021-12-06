@@ -56,7 +56,7 @@ const App = () => {
       <Router>
         <nav className="navbar navbar-expand-lg justify-content-between">
           <Link className="navbar-brand text-white fs-1 fw-bold" to="/">
-            <img className="brand-image" src="images/brand.png" alt="" />
+            <img className="brand-image" src="images/brand.JPG" alt="" />
           </Link>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -87,12 +87,7 @@ const App = () => {
               <WalletProvider wallets={wallets} autoConnect>
                 <WalletDialogProvider>
                   <Home
-                    candyMachineId={candyMachineId}
-                    config={config}
-                    connection={connection}
-                    startDate={startDateSeed}
-                    treasury={treasury}
-                    txTimeout={txTimeout}
+
                   /></WalletDialogProvider>
               </WalletProvider>
             </ConnectionProvider>

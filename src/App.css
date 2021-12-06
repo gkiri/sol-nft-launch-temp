@@ -4,12 +4,12 @@ html {
 
 body {
   color: #fff;
-  background-color: #1a1a1a;
+  background-color: #390050;
   font-family: EB Garamond,serif,sans-serif;
 }
 
 .brand-image {
-  width: 56px;
+  width: 312px;
 }
 
 @media (min-width: 1200px)
